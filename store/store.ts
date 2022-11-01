@@ -1,7 +1,8 @@
 import {configureStore, combineReducers} from "@reduxjs/toolkit"
+import platformSlice from "./slices/platformSlice"
 
 const reducer = combineReducers({
-
+    platform: platformSlice
 })
 
 const store = configureStore({

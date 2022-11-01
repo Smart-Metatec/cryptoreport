@@ -12,5 +12,5 @@ const platformSlice = createSlice({
     }
 })
 
-export const {} = platformSlice.actions
+export const { setPlatform } = platformSlice.actions
 export default platformSlice.reducer
